@@ -1,0 +1,4 @@
+# temperature = None
+# humidity = None
+
+  

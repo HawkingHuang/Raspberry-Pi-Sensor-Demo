@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/thermometer-outline.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mono溫濕度感測工具</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Mono溫濕度感測工具</h1>
+    </header>
+    <main>
+      <section class="section-temp-and-hum">
+        <div class="temp-and-hum">
+          <div class="temp">
+            <img src="img/temp.svg" alt="img of temperature" class="temp-img" />
+            <p class="stats temp-stats">23℃</p>
+          </div>
+          <div class="hum">
+            <img src="img/hum.svg" alt="img of humidity" class="hum-img" />
+            <p class="stats hum-stats">60%</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-canvas">
+        <canvas id="canvas"></canvas>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

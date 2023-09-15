@@ -1,0 +1,79 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #e7f5ff;
+}
+
+.header {
+  background-color: #4dabf7;
+  /* border-radius: 8px; */
+  width: 100%;
+  margin: 1rem auto 4.4rem auto;
+  padding: 2rem 1.8rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+.section-temp-and-hum {
+  background-color: #a5d8ff;
+  max-width: 150rem;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.temp-and-hum {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+}
+
+.temp {
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  /* justify-content: space-around; */
+}
+
+.temp-img {
+  width: 12rem;
+}
+.hum {
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  /* justify-content: space-around; */
+}
+
+.hum-img {
+  width: 12rem;
+}
+
+.stats {
+  font-size: 3.6rem;
+}
+
+#canvas {
+  width: 150rem;
+  height: auto;
+  border: 1px solid black;
+  display: block;
+  margin: 2rem auto;
+}
